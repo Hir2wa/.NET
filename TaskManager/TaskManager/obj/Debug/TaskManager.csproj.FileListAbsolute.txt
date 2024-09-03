@@ -2,10 +2,7 @@ C:\Users\Aime\Desktop\DotNet\TaskManager\TaskManager\bin\Debug\TaskManager.exe.c
 C:\Users\Aime\Desktop\DotNet\TaskManager\TaskManager\bin\Debug\TaskManager.exe
 C:\Users\Aime\Desktop\DotNet\TaskManager\TaskManager\bin\Debug\TaskManager.pdb
 C:\Users\Aime\Desktop\DotNet\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.AssemblyReference.cache
-C:\Users\Aime\Desktop\DotNet\TaskManager\TaskManager\obj\Debug\TaskManager.LoginForm.resources
 C:\Users\Aime\Desktop\DotNet\TaskManager\TaskManager\obj\Debug\TaskManager.Properties.Resources.resources
-C:\Users\Aime\Desktop\DotNet\TaskManager\TaskManager\obj\Debug\TaskManager.RegisterFrm.resources
-C:\Users\Aime\Desktop\DotNet\TaskManager\TaskManager\obj\Debug\TaskManager.TaskFrm.resources
 C:\Users\Aime\Desktop\DotNet\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.GenerateResource.cache
 C:\Users\Aime\Desktop\DotNet\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CoreCompileInputs.cache
 C:\Users\Aime\Desktop\DotNet\TaskManager\TaskManager\obj\Debug\TaskManager.exe

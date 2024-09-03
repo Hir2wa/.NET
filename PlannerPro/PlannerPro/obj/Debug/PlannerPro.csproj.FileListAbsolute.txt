@@ -1,0 +1,12 @@
+C:\Users\Aime\Desktop\DotNet\PlannerPro\PlannerPro\bin\Debug\PlannerPro.exe.config
+C:\Users\Aime\Desktop\DotNet\PlannerPro\PlannerPro\bin\Debug\PlannerPro.exe
+C:\Users\Aime\Desktop\DotNet\PlannerPro\PlannerPro\bin\Debug\PlannerPro.pdb
+C:\Users\Aime\Desktop\DotNet\PlannerPro\PlannerPro\obj\Debug\PlannerPro.csproj.AssemblyReference.cache
+C:\Users\Aime\Desktop\DotNet\PlannerPro\PlannerPro\obj\Debug\PlannerPro.Properties.Resources.resources
+C:\Users\Aime\Desktop\DotNet\PlannerPro\PlannerPro\obj\Debug\PlannerPro.TaskFrm.resources
+C:\Users\Aime\Desktop\DotNet\PlannerPro\PlannerPro\obj\Debug\PlannerPro.csproj.GenerateResource.cache
+C:\Users\Aime\Desktop\DotNet\PlannerPro\PlannerPro\obj\Debug\PlannerPro.csproj.CoreCompileInputs.cache
+C:\Users\Aime\Desktop\DotNet\PlannerPro\PlannerPro\obj\Debug\PlannerPro.exe
+C:\Users\Aime\Desktop\DotNet\PlannerPro\PlannerPro\obj\Debug\PlannerPro.pdb
+C:\Users\Aime\Desktop\DotNet\PlannerPro\PlannerPro\obj\Debug\PlannerPro.exe.config
+C:\Users\Aime\Desktop\DotNet\PlannerPro\PlannerPro\obj\Debug\PlannerPro.Planning.resources

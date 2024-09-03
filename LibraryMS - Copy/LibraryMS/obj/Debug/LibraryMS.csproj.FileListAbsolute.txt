@@ -1,0 +1,12 @@
+C:\Users\Aime\Desktop\DotNet\LibraryMS\LibraryMS\obj\Debug\LibraryMS.csproj.AssemblyReference.cache
+C:\Users\Aime\Desktop\DotNet\LibraryMS\LibraryMS\obj\Debug\LibraryMS.Authontiacation.resources
+C:\Users\Aime\Desktop\DotNet\LibraryMS\LibraryMS\obj\Debug\LibraryMS.Properties.Resources.resources
+C:\Users\Aime\Desktop\DotNet\LibraryMS\LibraryMS\obj\Debug\LibraryMS.csproj.GenerateResource.cache
+C:\Users\Aime\Desktop\DotNet\LibraryMS\LibraryMS\obj\Debug\LibraryMS.csproj.CoreCompileInputs.cache
+C:\Users\Aime\Desktop\DotNet\LibraryMS\LibraryMS\bin\Debug\LibraryMS.exe.config
+C:\Users\Aime\Desktop\DotNet\LibraryMS\LibraryMS\bin\Debug\LibraryMS.exe
+C:\Users\Aime\Desktop\DotNet\LibraryMS\LibraryMS\bin\Debug\LibraryMS.pdb
+C:\Users\Aime\Desktop\DotNet\LibraryMS\LibraryMS\obj\Debug\LibraryMS.exe
+C:\Users\Aime\Desktop\DotNet\LibraryMS\LibraryMS\obj\Debug\LibraryMS.pdb
+C:\Users\Aime\Desktop\DotNet\LibraryMS\LibraryMS\obj\Debug\LibraryMS.Librarian.resources
+C:\Users\Aime\Desktop\DotNet\LibraryMS\LibraryMS\obj\Debug\LibraryMS.Dashboard.resources
