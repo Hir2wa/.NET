@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,3 +10,5 @@ namespace Calculator
     {
     }
 }
+
+// Enhanced on 2025-10-19 - Commit 1
