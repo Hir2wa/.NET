@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 class Program
 {
@@ -50,3 +50,4 @@ class Program
         return mark;
     }
 }
+// Enhanced on 2025-10-19 - Commit 2
