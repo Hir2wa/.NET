@@ -1,4 +1,4 @@
-ï»¿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -528,28 +528,28 @@ namespace E_LearningPlatform
             string errors = "";
 
             if (string.IsNullOrWhiteSpace(txtCourseCode.Text))
-                errors += "â€¢ Course Code is required\n";
+                errors += "• Course Code is required\n";
             else if (CourseDataAccess.CourseCodeExists(txtCourseCode.Text.Trim().ToUpper()))
-                errors += "â€¢ Course Code already exists\n";
+                errors += "• Course Code already exists\n";
 
             if (string.IsNullOrWhiteSpace(txtCourseName.Text))
-                errors += "â€¢ Course Name is required\n";
+                errors += "• Course Name is required\n";
 
             if (comboBox1.SelectedIndex == -1)
-                errors += "â€¢ Semester is required\n";
+                errors += "• Semester is required\n";
 
             if (string.IsNullOrWhiteSpace(txtCredits.Text))
-                errors += "â€¢ Credits is required\n";
+                errors += "• Credits is required\n";
             else if (!int.TryParse(txtCredits.Text, out int credits) || credits < 1 || credits > 10)
-                errors += "â€¢ Credits must be a number between 1 and 10\n";
+                errors += "• Credits must be a number between 1 and 10\n";
 
             if (string.IsNullOrWhiteSpace(txtInstructor.Text))
-                errors += "â€¢ Instructor is required\n";
+                errors += "• Instructor is required\n";
 
             if (!string.IsNullOrWhiteSpace(txtMaxStudents.Text))
             {
                 if (!int.TryParse(txtMaxStudents.Text, out int maxStudents) || maxStudents < 1)
-                    errors += "â€¢ Max Students must be a positive number\n";
+                    errors += "• Max Students must be a positive number\n";
             }
 
             if (!string.IsNullOrEmpty(errors))
@@ -566,23 +566,23 @@ namespace E_LearningPlatform
             string errors = "";
 
             if (string.IsNullOrWhiteSpace(txtUpdateCourseCode.Text))
-                errors += "â€¢ Course Code is required\n";
+                errors += "• Course Code is required\n";
             else if (CourseDataAccess.CourseCodeExists(txtUpdateCourseCode.Text.Trim().ToUpper(), currentCourse?.CourseID))
-                errors += "â€¢ Course Code already exists\n";
+                errors += "• Course Code already exists\n";
 
             if (string.IsNullOrWhiteSpace(txtUpdateCourseName.Text))
-                errors += "â€¢ Course Name is required\n";
+                errors += "• Course Name is required\n";
 
             if (cmbUpdateSemester.SelectedIndex == -1)
-                errors += "â€¢ Semester is required\n";
+                errors += "• Semester is required\n";
 
             if (string.IsNullOrWhiteSpace(txtUpdateCredits.Text))
-                errors += "â€¢ Credits is required\n";
+                errors += "• Credits is required\n";
             else if (!int.TryParse(txtUpdateCredits.Text, out int credits) || credits < 1 || credits > 10)
-                errors += "â€¢ Credits must be a number between 1 and 10\n";
+                errors += "• Credits must be a number between 1 and 10\n";
 
             if (string.IsNullOrWhiteSpace(txtUpdateInstructor.Text))
-                errors += "â€¢ Instructor is required\n";
+                errors += "• Instructor is required\n";
 
             if (!string.IsNullOrEmpty(errors))
             {
@@ -774,3 +774,4 @@ namespace E_LearningPlatform
         #endregion
     }
 }
+// Enhanced on 2025-10-19 - Commit 3
