@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -190,3 +190,5 @@ namespace LibraryMS
         }
     }
 }
+
+// Enhanced on 2025-10-19 - Commit 4
