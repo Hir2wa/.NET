@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.pnlHeader = new System.Windows.Forms.Panel();
-            this.lblUserInfo = new System.Windows.Forms.Label();
             this.lblTitle = new System.Windows.Forms.Label();
             this.pnlNavigation = new System.Windows.Forms.Panel();
             this.btnRemoveCourse = new System.Windows.Forms.Button();
@@ -129,11 +128,11 @@
             this.txtCourseName = new System.Windows.Forms.TextBox();
             this.lblCourseCode = new System.Windows.Forms.Label();
             this.lblCourseName = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.txtCourseID = new System.Windows.Forms.TextBox();
             this.lblCourseID = new System.Windows.Forms.Label();
             this.lblAddTitle = new System.Windows.Forms.Label();
             this.lblWelcome = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.pnlHeader.SuspendLayout();
             this.pnlNavigation.SuspendLayout();
             this.pnlMainContent.SuspendLayout();
@@ -148,29 +147,18 @@
             // 
             // pnlHeader
             // 
-            this.pnlHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.pnlHeader.Controls.Add(this.lblUserInfo);
+            this.pnlHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(109)))), ((int)(((byte)(231)))));
             this.pnlHeader.Controls.Add(this.lblTitle);
             this.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlHeader.Location = new System.Drawing.Point(0, 0);
             this.pnlHeader.Name = "pnlHeader";
-            this.pnlHeader.Size = new System.Drawing.Size(1184, 100);
+            this.pnlHeader.Size = new System.Drawing.Size(1182, 100);
             this.pnlHeader.TabIndex = 0;
-            // 
-            // lblUserInfo
-            // 
-            this.lblUserInfo.AutoSize = true;
-            this.lblUserInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUserInfo.ForeColor = System.Drawing.Color.White;
-            this.lblUserInfo.Location = new System.Drawing.Point(20, 50);
-            this.lblUserInfo.Name = "lblUserInfo";
-            this.lblUserInfo.Size = new System.Drawing.Size(240, 16);
-            this.lblUserInfo.TabIndex = 1;
-            this.lblUserInfo.Text = "Current User: Admin | Date: [Date]";
             // 
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
+            this.lblTitle.BackColor = System.Drawing.Color.Transparent;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.White;
             this.lblTitle.Location = new System.Drawing.Point(20, 20);
@@ -191,7 +179,7 @@
             this.pnlNavigation.MaximumSize = new System.Drawing.Size(200, 0);
             this.pnlNavigation.MinimumSize = new System.Drawing.Size(200, 0);
             this.pnlNavigation.Name = "pnlNavigation";
-            this.pnlNavigation.Size = new System.Drawing.Size(200, 649);
+            this.pnlNavigation.Size = new System.Drawing.Size(200, 582);
             this.pnlNavigation.TabIndex = 1;
             // 
             // btnRemoveCourse
@@ -270,7 +258,6 @@
             this.pnlMainContent.Controls.Add(this.txtCourseName);
             this.pnlMainContent.Controls.Add(this.lblCourseCode);
             this.pnlMainContent.Controls.Add(this.lblCourseName);
-            this.pnlMainContent.Controls.Add(this.label1);
             this.pnlMainContent.Controls.Add(this.txtCourseID);
             this.pnlMainContent.Controls.Add(this.lblCourseID);
             this.pnlMainContent.Controls.Add(this.lblAddTitle);
@@ -1122,15 +1109,6 @@
             this.lblCourseName.Text = "Course Name*:";
             this.lblCourseName.UseMnemonic = false;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(22, 178);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 13);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Course Code*:";
-            // 
             // txtCourseID
             // 
             this.txtCourseID.Location = new System.Drawing.Point(150, 97);
@@ -1169,13 +1147,22 @@
             this.lblWelcome.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblWelcome.Visible = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(22, 178);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(75, 13);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Course Code*:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 749);
-            this.Controls.Add(this.pnlMainContent);
+            this.ClientSize = new System.Drawing.Size(1182, 682);
             this.Controls.Add(this.pnlNavigation);
+            this.Controls.Add(this.pnlMainContent);
             this.Controls.Add(this.pnlHeader);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Location = new System.Drawing.Point(20, 60);
@@ -1208,7 +1195,6 @@
         #endregion
 
         private System.Windows.Forms.Panel pnlHeader;
-        private System.Windows.Forms.Label lblUserInfo;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Panel pnlNavigation;
         private System.Windows.Forms.Button btnAddCourse;
