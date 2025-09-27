@@ -1,19 +1,13 @@
 ﻿@inherits LayoutComponentBase
 
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
-
-    <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
-        </div>
-
-        <article class="content px-4">
-            @Body
-        </article>
+<div class="shopping-cart-app">
+    <Header />
+    <main class="main-content">
+        @Body
     </main>
+    <footer class="footer">
+        <p>&copy; 2025 Acme Co. - Simple Shopping Cart</p>
+    </footer>
 </div>
 
 <div id="blazor-error-ui">

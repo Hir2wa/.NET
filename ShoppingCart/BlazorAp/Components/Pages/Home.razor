@@ -1,8 +1,20 @@
 ﻿@page "/"
+@inject NavigationManager Navigation
+@rendermode InteractiveServer
 
 <PageTitle>Home</PageTitle>
 
-<h1>Hello, Alain!</h1>
+<div class="text-center">
+    <h1>Welcome to Acme Co. Shopping Cart!</h1>
+    <p>Your simple and easy-to-understand shopping experience.</p>
+    <button @onclick="GoToProducts" class="btn btn-primary btn-lg">
+        Start Shopping
+    </button>
+</div>
 
-Welcome to your new app.
-<Counter/>
+@code {
+    private void GoToProducts()
+    {
+        Navigation.NavigateTo("/products");
+    }
+}

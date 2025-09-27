@@ -1,0 +1,61 @@
+@inject CartService CartService
+@inject NavigationManager Navigation
+@implements IDisposable
+@rendermode InteractiveServer
+
+<header class="header">
+    <div class="header__title-bar">
+        <h1>Acme Co.</h1>
+        <div class="header__price-box">
+            <p>Total Items: @CartService.TotalItems</p>
+            <p>Total Price: @CartService.FormattedTotalPrice</p>
+        </div>
+    </div>
+    <nav class="nav">
+        <button @onclick="() => NavigateToHome()" class="btn @(IsHomePage ? "btn-primary" : "btn-outline-primary")">
+            Home
+        </button>
+        <button @onclick="() => NavigateToProducts()" class="btn @(IsProductsPage ? "btn-primary" : "btn-outline-primary")">
+            Products
+        </button>
+        <button @onclick="() => NavigateToCart()" class="btn @(IsCartPage ? "btn-primary" : "btn-outline-primary")">
+            Cart
+        </button>
+    </nav>
+</header>
+
+@code {
+    private bool IsHomePage => Navigation.Uri.EndsWith("/") || Navigation.Uri.EndsWith("/home");
+    private bool IsProductsPage => Navigation.Uri.EndsWith("/products");
+    private bool IsCartPage => Navigation.Uri.EndsWith("/cart");
+
+    protected override void OnInitialized()
+    {
+        CartService.PropertyChanged += OnCartChanged;
+    }
+
+    private void OnCartChanged(object? sender, PropertyChangedEventArgs e)
+    {
+        InvokeAsync(StateHasChanged);
+    }
+
+    private void NavigateToHome()
+    {
+        Navigation.NavigateTo("/");
+    }
+
+    private void NavigateToProducts()
+    {
+        Navigation.NavigateTo("/products");
+    }
+
+    private void NavigateToCart()
+    {
+        Navigation.NavigateTo("/cart");
+    }
+
+    public void Dispose()
+    {
+        CartService.PropertyChanged -= OnCartChanged;
+    }
+}

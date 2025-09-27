@@ -1,10 +1,15 @@
 using BlazorAp.Components;
+using BlazorAp.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+
+// Register our custom services
+builder.Services.AddSingleton<ProductService>();
+builder.Services.AddSingleton<CartService>();
 
 var app = builder.Build();
 

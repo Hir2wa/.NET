@@ -1,0 +1,45 @@
+@page "/products"
+@inject ProductService ProductService
+@inject CartService CartService
+@rendermode InteractiveServer
+
+<PageTitle>Products</PageTitle>
+
+<h2>Products</h2>
+<p>Found @products.Count products</p>
+
+<div class="main main--products">
+    @foreach (var product in products)
+    {
+        <article class="product">
+            <h3>@product.Name</h3>
+            <img src="@product.ImagePath" alt="@product.Name" class="product__img" />
+            <p class="product__description">@product.Description</p>
+            <p class="product__price">
+                @product.Price.ToString("C")
+                @if (CartService.IsInCart(product.Sku))
+                {
+                    <span class="text-success">✅ In Cart</span>
+                }
+            </p>
+            <button @onclick="() => AddToCart(product)" class="btn btn-primary">
+                Add to Cart
+            </button>
+        </article>
+    }
+</div>
+
+@code {
+    private List<Product> products = new List<Product>();
+
+    protected override void OnInitialized()
+    {
+        products = ProductService.GetProducts();
+    }
+
+    private void AddToCart(Product product)
+    {
+        CartService.AddToCart(product);
+        StateHasChanged(); // Refresh the UI
+    }
+}

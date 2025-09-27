@@ -1,0 +1,98 @@
+@page "/cart"
+@inject CartService CartService
+@implements IDisposable
+@rendermode InteractiveServer
+
+<PageTitle>Cart</PageTitle>
+
+<h2>Cart</h2>
+
+@if (orderConfirmed)
+{
+    <h2>Thank You For Your Order....</h2>
+}
+else
+{
+    <ul class="cart">
+        @foreach (var item in CartService.CartItems.OrderBy(x => x.Sku))
+        {
+            <li class="cart__item">
+                <img src="/images/@(item.Sku).jpg" alt="@item.Name" class="cart__img" />
+                <div aria-label="Item Name">@item.Name</div>
+                <div aria-label="Price Per Item">
+                    @item.Price.ToString("C")
+                </div>
+                <label for="itemQty_@item.Sku" class="offscreen">
+                    Item Quantity
+                </label>
+                <select 
+                    id="itemQty_@item.Sku"
+                    class="cart__select"
+                    @bind="item.Quantity"
+                    @bind:after="() => UpdateQuantity(item.Sku, item.Quantity)"
+                    aria-label="Item Quantity">
+                    @for (int i = 1; i <= 20; i++)
+                    {
+                        <option value="@i">@i</option>
+                    }
+                </select>
+                <div class="cart__item-subtotal" aria-label="Line Item Subtotal">
+                    @item.Total.ToString("C")
+                </div>
+                <button
+                    class="cart_button"
+                    aria-label="Remove Item From Cart"
+                    title="Remove Item From Cart"
+                    @onclick="() => RemoveFromCart(item.Sku)">
+                    📕
+                </button>
+            </li>
+        }
+    </ul>
+
+    <div class="cart__totals">
+        <p>Total Items: @CartService.TotalItems</p>
+        <p>Total Price: @CartService.FormattedTotalPrice</p>
+        <button
+            disabled="@(CartService.TotalItems == 0)"
+            @onclick="PlaceOrder"
+            class="cart__submit btn btn-success">
+            Place Order
+        </button>
+    </div>
+}
+
+@code {
+    private bool orderConfirmed = false;
+
+    protected override void OnInitialized()
+    {
+        CartService.PropertyChanged += OnCartChanged;
+    }
+
+    private void OnCartChanged(object? sender, PropertyChangedEventArgs e)
+    {
+        InvokeAsync(StateHasChanged);
+    }
+
+    private void UpdateQuantity(string sku, int quantity)
+    {
+        CartService.UpdateQuantity(sku, quantity);
+    }
+
+    private void RemoveFromCart(string sku)
+    {
+        CartService.RemoveFromCart(sku);
+    }
+
+    private void PlaceOrder()
+    {
+        CartService.ClearCart();
+        orderConfirmed = true;
+    }
+
+    public void Dispose()
+    {
+        CartService.PropertyChanged -= OnCartChanged;
+    }
+}

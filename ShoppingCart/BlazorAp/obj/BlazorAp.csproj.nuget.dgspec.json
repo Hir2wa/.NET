@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aime\\Desktop\\DotNet\\BlazorAp\\BlazorAp\\BlazorAp.csproj": {}
+    "C:\\Users\\Aime\\Desktop\\DotNet\\ShoppingCart\\BlazorAp\\BlazorAp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aime\\Desktop\\DotNet\\BlazorAp\\BlazorAp\\BlazorAp.csproj": {
+    "C:\\Users\\Aime\\Desktop\\DotNet\\ShoppingCart\\BlazorAp\\BlazorAp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aime\\Desktop\\DotNet\\BlazorAp\\BlazorAp\\BlazorAp.csproj",
+        "projectUniqueName": "C:\\Users\\Aime\\Desktop\\DotNet\\ShoppingCart\\BlazorAp\\BlazorAp.csproj",
         "projectName": "BlazorAp",
-        "projectPath": "C:\\Users\\Aime\\Desktop\\DotNet\\BlazorAp\\BlazorAp\\BlazorAp.csproj",
+        "projectPath": "C:\\Users\\Aime\\Desktop\\DotNet\\ShoppingCart\\BlazorAp\\BlazorAp.csproj",
         "packagesPath": "C:\\Users\\Aime\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aime\\Desktop\\DotNet\\BlazorAp\\BlazorAp\\obj\\",
+        "outputPath": "C:\\Users\\Aime\\Desktop\\DotNet\\ShoppingCart\\BlazorAp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
