@@ -1,7 +1,7 @@
+wwwroot\app.css
 wwwroot\bootstrap\bootstrap.min.css
 wwwroot\bootstrap\bootstrap.min.css.map
 wwwroot\favicon.png
 wwwroot\images\item0001.jpg
 wwwroot\images\item0002.jpg
 wwwroot\images\item0003.jpg
-wwwroot\app.css

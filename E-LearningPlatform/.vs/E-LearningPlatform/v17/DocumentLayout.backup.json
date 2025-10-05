@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Aime\\Desktop\\DotNet\\E-LearningPlatform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{385FDA95-3856-4B84-B1CD-D76FF036970D}|E-LearningPlatform\\E-LearningPlatform.csproj|C:\\Users\\Aime\\Desktop\\DotNet\\E-LearningPlatform\\e-learningplatform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{385FDA95-3856-4B84-B1CD-D76FF036970D}|E-LearningPlatform\\E-LearningPlatform.csproj|solutionrelative:e-learningplatform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aime\\Desktop\\DotNet\\E-LearningPlatform\\E-LearningPlatform\\Course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-LearningPlatform\\Course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{385FDA95-3856-4B84-B1CD-D76FF036970D}|E-LearningPlatform\\E-LearningPlatform.csproj|c:\\users\\aime\\desktop\\dotnet\\e-learningplatform\\e-learningplatform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{385FDA95-3856-4B84-B1CD-D76FF036970D}|E-LearningPlatform\\E-LearningPlatform.csproj|solutionrelative:e-learningplatform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aime\\Desktop\\DotNet\\E-LearningPlatform\\E-LearningPlatform\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-LearningPlatform\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{385FDA95-3856-4B84-B1CD-D76FF036970D}|E-LearningPlatform\\E-LearningPlatform.csproj|C:\\Users\\Aime\\Desktop\\DotNet\\E-LearningPlatform\\E-LearningPlatform\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{385FDA95-3856-4B84-B1CD-D76FF036970D}|E-LearningPlatform\\E-LearningPlatform.csproj|solutionrelative:E-LearningPlatform\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aime\\Desktop\\DotNet\\E-LearningPlatform\\E-LearningPlatform\\Form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-LearningPlatform\\Form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{385FDA95-3856-4B84-B1CD-D76FF036970D}|E-LearningPlatform\\E-LearningPlatform.csproj|C:\\Users\\Aime\\Desktop\\DotNet\\E-LearningPlatform\\e-learningplatform\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{385FDA95-3856-4B84-B1CD-D76FF036970D}|E-LearningPlatform\\E-LearningPlatform.csproj|solutionrelative:e-learningplatform\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aime\\Desktop\\DotNet\\E-LearningPlatform\\E-LearningPlatform\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-LearningPlatform\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{385FDA95-3856-4B84-B1CD-D76FF036970D}|E-LearningPlatform\\E-LearningPlatform.csproj|C:\\Users\\Aime\\Desktop\\DotNet\\E-LearningPlatform\\e-learningplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{385FDA95-3856-4B84-B1CD-D76FF036970D}|E-LearningPlatform\\E-LearningPlatform.csproj|solutionrelative:e-learningplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{385FDA95-3856-4B84-B1CD-D76FF036970D}|E-LearningPlatform\\E-LearningPlatform.csproj|C:\\Users\\Aime\\Desktop\\DotNet\\E-LearningPlatform\\e-learningplatform\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{385FDA95-3856-4B84-B1CD-D76FF036970D}|E-LearningPlatform\\E-LearningPlatform.csproj|solutionrelative:e-learningplatform\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aime\\Desktop\\DotNet\\E-LearningPlatform\\E-LearningPlatform\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-LearningPlatform\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Course.cs",
               "DocumentMoniker": "C:\\Users\\Aime\\Desktop\\DotNet\\E-LearningPlatform\\E-LearningPlatform\\Course.cs",
               "RelativeDocumentMoniker": "E-LearningPlatform\\Course.cs",
@@ -55,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Aime\\Desktop\\DotNet\\E-LearningPlatform\\E-LearningPlatform\\Program.cs",
               "RelativeDocumentMoniker": "E-LearningPlatform\\Program.cs",
@@ -63,29 +59,27 @@
               "RelativeToolTip": "E-LearningPlatform\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:30:11.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:30:11.478Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Form1.resx",
               "DocumentMoniker": "C:\\Users\\Aime\\Desktop\\DotNet\\E-LearningPlatform\\E-LearningPlatform\\Form1.resx",
               "RelativeDocumentMoniker": "E-LearningPlatform\\Form1.resx",
-              "ToolTip": "C:\\Users\\Aime\\Desktop\\DotNet\\E-LearningPlatform\\E-LearningPlatform\\Form1.resx*",
-              "RelativeToolTip": "E-LearningPlatform\\Form1.resx*",
+              "ToolTip": "C:\\Users\\Aime\\Desktop\\DotNet\\E-LearningPlatform\\E-LearningPlatform\\Form1.resx",
+              "RelativeToolTip": "E-LearningPlatform\\Form1.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-09-18T09:30:08.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:30:08.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Aime\\Desktop\\DotNet\\E-LearningPlatform\\E-LearningPlatform\\Form1.cs",
               "RelativeDocumentMoniker": "E-LearningPlatform\\Form1.cs",
-              "ToolTip": "C:\\Users\\Aime\\Desktop\\DotNet\\E-LearningPlatform\\E-LearningPlatform\\Form1.cs*",
-              "RelativeToolTip": "E-LearningPlatform\\Form1.cs*",
+              "ToolTip": "C:\\Users\\Aime\\Desktop\\DotNet\\E-LearningPlatform\\E-LearningPlatform\\Form1.cs",
+              "RelativeToolTip": "E-LearningPlatform\\Form1.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAD4v+8CAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-18T01:25:03.7Z",
@@ -93,28 +87,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Aime\\Desktop\\DotNet\\E-LearningPlatform\\E-LearningPlatform\\Form1.cs",
-              "RelativeDocumentMoniker": "E-LearningPlatform\\Form1.cs",
-              "ToolTip": "C:\\Users\\Aime\\Desktop\\DotNet\\E-LearningPlatform\\E-LearningPlatform\\Form1.cs [Design]*",
-              "RelativeToolTip": "E-LearningPlatform\\Form1.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T00:49:23.438Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Aime\\Desktop\\DotNet\\E-LearningPlatform\\E-LearningPlatform\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "E-LearningPlatform\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\Aime\\Desktop\\DotNet\\E-LearningPlatform\\E-LearningPlatform\\Form1.Designer.cs*",
-              "RelativeToolTip": "E-LearningPlatform\\Form1.Designer.cs*",
-              "ViewState": "AgIAAPYAAAAAAAAAAAAcwBABAAAMAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Aime\\Desktop\\DotNet\\E-LearningPlatform\\E-LearningPlatform\\Form1.Designer.cs",
+              "RelativeToolTip": "E-LearningPlatform\\Form1.Designer.cs",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAcwAQBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T00:52:49.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T00:52:49.221Z"
             }
           ]
         }

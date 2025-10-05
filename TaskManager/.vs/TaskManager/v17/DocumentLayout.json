@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aime\\Desktop\\DotNet\\TaskManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79E2F8F1-CCC2-4361-ACBC-BEA65AB340C3}|TaskManager\\TaskManager.csproj|C:\\Users\\Aime\\Desktop\\DotNet\\TaskManager\\taskmanager\\registerfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79E2F8F1-CCC2-4361-ACBC-BEA65AB340C3}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\registerfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E2F8F1-CCC2-4361-ACBC-BEA65AB340C3}|TaskManager\\TaskManager.csproj|C:\\Users\\Aime\\Desktop\\DotNet\\TaskManager\\taskmanager\\taskfrm.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E2F8F1-CCC2-4361-ACBC-BEA65AB340C3}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\taskfrm.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E2F8F1-CCC2-4361-ACBC-BEA65AB340C3}|TaskManager\\TaskManager.csproj|C:\\Users\\Aime\\Desktop\\DotNet\\TaskManager\\taskmanager\\planningfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79E2F8F1-CCC2-4361-ACBC-BEA65AB340C3}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\planningfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E2F8F1-CCC2-4361-ACBC-BEA65AB340C3}|TaskManager\\TaskManager.csproj|c:\\users\\aime\\desktop\\dotnet\\taskmanager\\taskmanager\\taskfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79E2F8F1-CCC2-4361-ACBC-BEA65AB340C3}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\taskfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E2F8F1-CCC2-4361-ACBC-BEA65AB340C3}|TaskManager\\TaskManager.csproj|C:\\Users\\Aime\\Desktop\\DotNet\\TaskManager\\taskmanager\\taskfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E2F8F1-CCC2-4361-ACBC-BEA65AB340C3}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\taskfrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E2F8F1-CCC2-4361-ACBC-BEA65AB340C3}|TaskManager\\TaskManager.csproj|C:\\Users\\Aime\\Desktop\\DotNet\\TaskManager\\taskmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E2F8F1-CCC2-4361-ACBC-BEA65AB340C3}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E2F8F1-CCC2-4361-ACBC-BEA65AB340C3}|TaskManager\\TaskManager.csproj|C:\\Users\\Aime\\Desktop\\DotNet\\TaskManager\\taskmanager\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79E2F8F1-CCC2-4361-ACBC-BEA65AB340C3}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlanningFrm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Aime\\Desktop\\DotNet\\TaskManager\\TaskManager\\PlanningFrm.cs",
+              "RelativeDocumentMoniker": "TaskManager\\PlanningFrm.cs",
+              "ToolTip": "C:\\Users\\Aime\\Desktop\\DotNet\\TaskManager\\TaskManager\\PlanningFrm.cs [Design]",
+              "RelativeToolTip": "TaskManager\\PlanningFrm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T17:12:34.606Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskFrm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Aime\\Desktop\\DotNet\\TaskManager\\TaskManager\\TaskFrm.cs",
+              "RelativeDocumentMoniker": "TaskManager\\TaskFrm.cs",
+              "ToolTip": "C:\\Users\\Aime\\Desktop\\DotNet\\TaskManager\\TaskManager\\TaskFrm.cs [Design]",
+              "RelativeToolTip": "TaskManager\\TaskFrm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T17:12:21.101Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterFrm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Aime\\Desktop\\DotNet\\TaskManager\\TaskManager\\RegisterFrm.cs",
+              "RelativeDocumentMoniker": "TaskManager\\RegisterFrm.cs",
+              "ToolTip": "C:\\Users\\Aime\\Desktop\\DotNet\\TaskManager\\TaskManager\\RegisterFrm.cs [Design]",
+              "RelativeToolTip": "TaskManager\\RegisterFrm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T17:12:05.046Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aime\\Desktop\\DotNet\\TaskManager\\TaskManager\\Program.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Program.cs",
+              "ToolTip": "C:\\Users\\Aime\\Desktop\\DotNet\\TaskManager\\TaskManager\\Program.cs",
+              "RelativeToolTip": "TaskManager\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T18:51:17.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskFrm.cs",
+              "DocumentMoniker": "C:\\Users\\Aime\\Desktop\\DotNet\\TaskManager\\TaskManager\\TaskFrm.cs",
+              "RelativeDocumentMoniker": "TaskManager\\TaskFrm.cs",
+              "ToolTip": "C:\\Users\\Aime\\Desktop\\DotNet\\TaskManager\\TaskManager\\TaskFrm.cs",
+              "RelativeToolTip": "TaskManager\\TaskFrm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T18:54:43.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskFrm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Aime\\Desktop\\DotNet\\TaskManager\\TaskManager\\TaskFrm.Designer.cs",
+              "RelativeDocumentMoniker": "TaskManager\\TaskFrm.Designer.cs",
+              "ToolTip": "C:\\Users\\Aime\\Desktop\\DotNet\\TaskManager\\TaskManager\\TaskFrm.Designer.cs",
+              "RelativeToolTip": "TaskManager\\TaskFrm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T18:52:21.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Aime\\Desktop\\DotNet\\TaskManager\\TaskManager\\Form1.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Form1.cs",
+              "ToolTip": "C:\\Users\\Aime\\Desktop\\DotNet\\TaskManager\\TaskManager\\Form1.cs [Design]",
+              "RelativeToolTip": "TaskManager\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T17:08:04.876Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

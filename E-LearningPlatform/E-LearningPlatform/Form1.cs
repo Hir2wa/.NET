@@ -8,15 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Configuration;
 
 namespace E_LearningPlatform
 {
     public partial class Form1 : Form
     {
-        // Data Storage - Using List as requested
-        private List<Course> courseList = new List<Course>();
+        // Data Storage - Now using Database instead of List
+        private List<Course> courseList = new List<Course>(); // Keep for caching/display purposes
         private Course currentCourse = null;
-        private int courseIDCounter = 1;
 
         public Form1()
         {
@@ -26,7 +26,13 @@ namespace E_LearningPlatform
 
         private void InitializeData()
         {
-        
+            // Test database connection first
+            if (!DatabaseHelper.TestConnection())
+            {
+                MessageBox.Show("Cannot connect to database. Please check your connection settings.", 
+                    "Database Connection Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
 
             // Initialize combo boxes
             InitializeComboBoxes();
@@ -261,20 +267,23 @@ namespace E_LearningPlatform
                         Status = cmbStatus.SelectedItem?.ToString() ?? "Active"
                     };
 
-                    courseList.Add(newCourse);
-                    ShowSuccessMessage($"Course '{newCourse.CourseCode}' has been saved successfully!");
-
-                    DialogResult result = MessageBox.Show("Course saved successfully!\n\nDo you want to add another course?",
-                        "Success", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-                    if (result == DialogResult.Yes)
+                    // Save to database instead of list
+                    if (CourseDataAccess.InsertCourse(newCourse))
                     {
-                        ClearAddCourseForm();
-                        GenerateNewCourseID();
-                    }
-                    else
-                    {
-                        ShowWelcomePanel();
+                        ShowSuccessMessage($"Course '{newCourse.CourseCode}' has been saved successfully!");
+
+                        DialogResult result = MessageBox.Show("Course saved successfully!\n\nDo you want to add another course?",
+                            "Success", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                        if (result == DialogResult.Yes)
+                        {
+                            ClearAddCourseForm();
+                            GenerateNewCourseID();
+                        }
+                        else
+                        {
+                            ShowWelcomePanel();
+                        }
                     }
                 }
                 catch (Exception ex)
@@ -309,7 +318,7 @@ namespace E_LearningPlatform
                 return;
             }
 
-            Course course = courseList.FirstOrDefault(c => c.CourseID.Equals(searchID, StringComparison.OrdinalIgnoreCase));
+            Course course = CourseDataAccess.GetCourseByID(searchID);
             DisplayFoundCourse(course);
         }
 
@@ -322,7 +331,7 @@ namespace E_LearningPlatform
                 return;
             }
 
-            Course course = courseList.FirstOrDefault(c => c.CourseCode.Equals(searchCode, StringComparison.OrdinalIgnoreCase));
+            Course course = CourseDataAccess.GetCourseByCode(searchCode);
             DisplayFoundCourse(course);
         }
 
@@ -336,10 +345,12 @@ namespace E_LearningPlatform
 
                 if (result == DialogResult.Yes)
                 {
-                    courseList.Remove(currentCourse);
-                    ShowSuccessMessage($"Course '{currentCourse.CourseCode}' has been deleted successfully!");
-                    ClearRemoveSearchForm();
-                    currentCourse = null;
+                    if (CourseDataAccess.DeleteCourse(currentCourse.CourseID))
+                    {
+                        ShowSuccessMessage($"Course '{currentCourse.CourseCode}' has been deleted successfully!");
+                        ClearRemoveSearchForm();
+                        currentCourse = null;
+                    }
                 }
             }
         }
@@ -357,7 +368,7 @@ namespace E_LearningPlatform
                 return;
             }
 
-            Course course = courseList.FirstOrDefault(c => c.CourseID.Equals(searchID, StringComparison.OrdinalIgnoreCase));
+            Course course = CourseDataAccess.GetCourseByID(searchID);
             LoadCourseForUpdate(course);
         }
 
@@ -370,7 +381,7 @@ namespace E_LearningPlatform
                 return;
             }
 
-            Course course = courseList.FirstOrDefault(c => c.CourseCode.Equals(searchCode, StringComparison.OrdinalIgnoreCase));
+            Course course = CourseDataAccess.GetCourseByCode(searchCode);
             LoadCourseForUpdate(course);
         }
 
@@ -388,8 +399,12 @@ namespace E_LearningPlatform
                     currentCourse.Instructor = txtUpdateInstructor.Text.Trim();
                     currentCourse.Prerequisites = txtUpdatePrerequisites.Text.Trim();
 
-                    ShowSuccessMessage($"Course '{currentCourse.CourseCode}' has been updated successfully!");
-                    ClearUpdateSearchForm();
+                    // Update in database
+                    if (CourseDataAccess.UpdateCourse(currentCourse))
+                    {
+                        ShowSuccessMessage($"Course '{currentCourse.CourseCode}' has been updated successfully!");
+                        ClearUpdateSearchForm();
+                    }
                 }
                 catch (Exception ex)
                 {
@@ -473,8 +488,7 @@ namespace E_LearningPlatform
 
         private void GenerateNewCourseID()
         {
-            txtCourseID.Text = courseIDCounter.ToString("000");
-            courseIDCounter++;
+            txtCourseID.Text = CourseDataAccess.GetNextCourseID();
         }
 
         private void ClearAddCourseForm()
@@ -515,7 +529,7 @@ namespace E_LearningPlatform
 
             if (string.IsNullOrWhiteSpace(txtCourseCode.Text))
                 errors += "• Course Code is required\n";
-            else if (courseList.Any(c => c.CourseCode.Equals(txtCourseCode.Text.Trim(), StringComparison.OrdinalIgnoreCase)))
+            else if (CourseDataAccess.CourseCodeExists(txtCourseCode.Text.Trim().ToUpper()))
                 errors += "• Course Code already exists\n";
 
             if (string.IsNullOrWhiteSpace(txtCourseName.Text))
@@ -553,6 +567,8 @@ namespace E_LearningPlatform
 
             if (string.IsNullOrWhiteSpace(txtUpdateCourseCode.Text))
                 errors += "• Course Code is required\n";
+            else if (CourseDataAccess.CourseCodeExists(txtUpdateCourseCode.Text.Trim().ToUpper(), currentCourse?.CourseID))
+                errors += "• Course Code already exists\n";
 
             if (string.IsNullOrWhiteSpace(txtUpdateCourseName.Text))
                 errors += "• Course Name is required\n";
@@ -631,6 +647,8 @@ namespace E_LearningPlatform
         private void LoadCoursesToGrid()
         {
             dgvCourses.Rows.Clear();
+            courseList = CourseDataAccess.GetAllCourses(); // Load from database
+            
             foreach (Course course in courseList)
             {
                 dgvCourses.Rows.Add(
@@ -648,18 +666,17 @@ namespace E_LearningPlatform
 
         private void FilterAndDisplayCourses()
         {
-            string searchTerm = txtSearchDisplay.Text.Trim().ToLower();
+            string searchTerm = txtSearchDisplay.Text.Trim();
             string semesterFilter = cmbFilterSemester.SelectedItem?.ToString();
             string departmentFilter = cmbFilterDepartment.SelectedItem?.ToString();
 
-            var filteredCourses = courseList.Where(c =>
-                (string.IsNullOrEmpty(searchTerm) ||
-                 c.CourseCode.ToLower().Contains(searchTerm) ||
-                 c.CourseName.ToLower().Contains(searchTerm) ||
-                 c.Instructor.ToLower().Contains(searchTerm)) &&
-                (semesterFilter == "All Semesters" || c.Semester == semesterFilter) &&
-                (departmentFilter == "All Departments" || c.Department == departmentFilter)
-            ).ToList();
+            // Use database search instead of filtering in memory
+            var filteredCourses = CourseDataAccess.SearchCourses(
+                string.IsNullOrEmpty(searchTerm) ? null : searchTerm,
+                semesterFilter == "All Semesters" ? null : semesterFilter,
+                departmentFilter == "All Departments" ? null : departmentFilter,
+                null
+            );
 
             dgvCourses.Rows.Clear();
             foreach (Course course in filteredCourses)
@@ -674,7 +691,7 @@ namespace E_LearningPlatform
                     course.Status
                 );
             }
-            lblRecordInfo.Text = $"Showing {filteredCourses.Count} of {courseList.Count} courses";
+            lblRecordInfo.Text = $"Showing {filteredCourses.Count} courses";
         }
 
         private void ShowCourseDetails(Course course)
@@ -702,7 +719,9 @@ namespace E_LearningPlatform
             {
                 writer.WriteLine("CourseID,CourseCode,CourseName,Credits,Instructor,Semester,Department,Status");
 
-                foreach (Course course in courseList)
+                // Get all courses from database for export
+                var allCourses = CourseDataAccess.GetAllCourses();
+                foreach (Course course in allCourses)
                 {
                     writer.WriteLine($"{course.CourseID},{course.CourseCode},{course.CourseName}," +
                                    $"{course.Credits},{course.Instructor},{course.Semester}," +
