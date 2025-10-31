@@ -26,3 +26,4 @@ Commit: 2025-10-31 16:20:34 - Fix CommandName for Edit/Delete
 Commit: 2025-10-31 16:40:41 - Fix return types
 Commit: 2025-10-31 17:00:48 - Update connection string handling
 Commit: 2025-10-31 17:20:55 - Fix connection closing logic
+Commit: 2025-10-31 17:40:02 - Fix connection closing logic
