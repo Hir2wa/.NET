@@ -21,3 +21,4 @@ Commit: 2025-10-31 14:40:59 - Update project structure
 Commit: 2025-10-31 15:00:06 - Add proper error messages
 Commit: 2025-10-31 15:20:13 - Update GridView styling
 Commit: 2025-10-31 15:40:20 - Add HiddenField for movieId tracking
+Commit: 2025-10-31 16:00:27 - Fix SQL UPDATE statement
