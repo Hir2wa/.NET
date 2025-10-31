@@ -5,3 +5,4 @@ Commit: 2025-10-31 09:20:07 - Update method signatures
 Commit: 2025-10-31 09:40:14 - Fix control references
 Commit: 2025-10-31 10:00:21 - Fix CommandArgument binding
 Commit: 2025-10-31 10:20:28 - Fix memory leak in connections
+Commit: 2025-10-31 10:40:35 - Add Delete button with confirmation
