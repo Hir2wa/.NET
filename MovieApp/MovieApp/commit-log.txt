@@ -23,3 +23,4 @@ Commit: 2025-10-31 15:20:13 - Update GridView styling
 Commit: 2025-10-31 15:40:20 - Add HiddenField for movieId tracking
 Commit: 2025-10-31 16:00:27 - Fix SQL UPDATE statement
 Commit: 2025-10-31 16:20:34 - Fix CommandName for Edit/Delete
+Commit: 2025-10-31 16:40:41 - Fix return types
