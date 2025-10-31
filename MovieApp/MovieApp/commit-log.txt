@@ -16,3 +16,4 @@ Commit: 2025-10-31 13:00:24 - Update connection string handling
 Commit: 2025-10-31 13:20:31 - Implement DeleteMovie functionality
 Commit: 2025-10-31 13:40:38 - Fix memory leak in connections
 Commit: 2025-10-31 14:00:45 - Fix code formatting
+Commit: 2025-10-31 14:20:52 - Fix description field mapping
