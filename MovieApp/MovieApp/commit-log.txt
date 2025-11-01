@@ -45,3 +45,4 @@ Commit: 2025-11-01 13:40:38 - Add proper transaction handling
 Commit: 2025-11-01 14:00:45 - Update method signatures
 Commit: 2025-11-01 14:20:52 - Fix CommandName for Edit/Delete
 Commit: 2025-11-01 14:40:59 - Fix DataReader closing
+Commit: 2025-11-01 15:00:06 - Fix UI responsiveness
