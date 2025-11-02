@@ -78,3 +78,4 @@ Commit: 2025-11-02 16:00:27 - Add proper session management
 Commit: 2025-11-02 16:20:34 - Fix parameterized query execution
 Commit: 2025-11-02 16:40:41 - Fix namespace declarations
 Commit: 2025-11-02 17:00:48 - Create GridView for displaying movies
+Commit: 2025-11-02 17:20:55 - Add movieId to SELECT query
