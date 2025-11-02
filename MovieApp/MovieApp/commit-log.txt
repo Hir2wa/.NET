@@ -55,3 +55,4 @@ Commit: 2025-11-01 17:00:48 - Update designer file for new controls
 Commit: 2025-11-01 17:20:55 - Refactor ClearForm method
 Commit: 2025-11-02 09:00:00 - Add proper resource disposal
 Commit: 2025-11-02 09:20:07 - Add HiddenField for movieId tracking
+Commit: 2025-11-02 09:40:14 - Fix connection closing logic
