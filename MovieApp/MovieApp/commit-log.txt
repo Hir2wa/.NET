@@ -92,3 +92,4 @@ Commit: 2025-11-03 10:20:28 - Create LoadMovieForEdit method
 Commit: 2025-11-03 10:40:35 - Add proper session management
 Commit: 2025-11-03 11:00:42 - Update form layout and spacing
 Commit: 2025-11-03 11:20:49 - Add proper null checks
+Commit: 2025-11-03 11:40:56 - Add proper exception types
