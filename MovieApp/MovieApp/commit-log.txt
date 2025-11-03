@@ -108,3 +108,4 @@ Commit: 2025-11-03 15:40:20 - Update event handlers
 Commit: 2025-11-03 16:00:27 - Add movieId to SELECT query
 Commit: 2025-11-03 16:20:34 - Update project structure
 Commit: 2025-11-03 16:40:41 - Add proper exception types
+Commit: 2025-11-03 17:00:48 - Fix return types
