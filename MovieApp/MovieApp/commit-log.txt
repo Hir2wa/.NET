@@ -111,3 +111,4 @@ Commit: 2025-11-03 16:40:41 - Add proper exception types
 Commit: 2025-11-03 17:00:48 - Fix return types
 Commit: 2025-11-03 17:20:55 - Fix CommandName for Edit/Delete
 Commit: 2025-11-04 09:00:00 - Update error label display
+Commit: 2025-11-04 09:20:07 - Create LoadMovieForEdit method
