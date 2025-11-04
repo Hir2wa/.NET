@@ -120,3 +120,4 @@ Commit: 2025-11-04 11:00:42 - Add proper spacing in ASPX file
 Commit: 2025-11-04 11:20:49 - Improve user feedback messages
 Commit: 2025-11-04 11:40:56 - Add proper form state management
 Commit: 2025-11-04 12:00:03 - Implement database connection string configuration
+Commit: 2025-11-04 12:20:10 - Implement DeleteMovie functionality
