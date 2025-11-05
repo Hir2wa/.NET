@@ -151,3 +151,4 @@ Commit: 2025-11-05 12:00:03 - Add proper session management
 Commit: 2025-11-05 12:20:10 - Add Bootstrap styling to buttons
 Commit: 2025-11-05 12:40:17 - Update form layout and spacing
 Commit: 2025-11-05 13:00:24 - Update SQL INSERT statement
+Commit: 2025-11-05 13:20:31 - Fix SQL parameter naming
