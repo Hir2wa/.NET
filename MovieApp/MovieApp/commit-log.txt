@@ -187,3 +187,4 @@ Commit: 2025-11-06 15:20:13 - Fix DataReader closing
 Commit: 2025-11-06 15:40:20 - Update error label display
 Commit: 2025-11-06 16:00:27 - Update SQL INSERT statement
 Commit: 2025-11-06 16:20:34 - Update SQL INSERT statement
+Commit: 2025-11-06 16:40:41 - Fix movieId parameter passing
