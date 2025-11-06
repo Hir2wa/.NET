@@ -171,3 +171,4 @@ Commit: 2025-11-06 10:00:21 - Add proper form reset on save
 Commit: 2025-11-06 10:20:28 - Add rating field validation
 Commit: 2025-11-06 10:40:35 - Fix name field binding
 Commit: 2025-11-06 11:00:42 - Update database schema references
+Commit: 2025-11-06 11:20:49 - Create GridView for displaying movies
