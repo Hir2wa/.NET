@@ -178,3 +178,4 @@ Commit: 2025-11-06 12:20:10 - Update page lifecycle handling
 Commit: 2025-11-06 12:40:17 - Update event handlers
 Commit: 2025-11-06 13:00:24 - Add proper session management
 Commit: 2025-11-06 13:20:31 - Update project structure
+Commit: 2025-11-06 13:40:38 - Fix movieId parameter passing
