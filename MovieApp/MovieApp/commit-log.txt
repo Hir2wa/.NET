@@ -179,3 +179,4 @@ Commit: 2025-11-06 12:40:17 - Update event handlers
 Commit: 2025-11-06 13:00:24 - Add proper session management
 Commit: 2025-11-06 13:20:31 - Update project structure
 Commit: 2025-11-06 13:40:38 - Fix movieId parameter passing
+Commit: 2025-11-06 14:00:45 - Update GridView RowCommand handler
