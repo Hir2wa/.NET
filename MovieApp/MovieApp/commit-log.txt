@@ -212,3 +212,4 @@ Commit: 2025-11-07 14:00:45 - Add movieId to SELECT query
 Commit: 2025-11-07 14:20:52 - Implement Save button functionality
 Commit: 2025-11-07 14:40:59 - Add proper session management
 Commit: 2025-11-07 15:00:06 - Update button text and labels
+Commit: 2025-11-07 15:20:13 - Add Bootstrap styling to buttons
