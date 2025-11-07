@@ -197,3 +197,4 @@ Commit: 2025-11-07 09:00:00 - Implement Page_Load data binding
 Commit: 2025-11-07 09:20:07 - Update button visibility logic
 Commit: 2025-11-07 09:40:14 - Fix connection state management
 Commit: 2025-11-07 10:00:21 - Add proper null checks
+Commit: 2025-11-07 10:20:28 - Update director field handling
