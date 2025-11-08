@@ -236,3 +236,4 @@ Commit: 2025-11-08 13:20:31 - Add proper null checks
 Commit: 2025-11-08 13:40:38 - Update GridView column headers
 Commit: 2025-11-08 14:00:45 - Create LoadMovieForEdit method
 Commit: 2025-11-08 14:20:52 - Update form layout and spacing
+Commit: 2025-11-08 14:40:59 - Implement Cancel button functionality
