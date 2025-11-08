@@ -244,3 +244,4 @@ Commit: 2025-11-08 16:00:27 - Add proper session management
 Commit: 2025-11-08 16:20:34 - Update event handlers
 Commit: 2025-11-08 16:40:41 - Add proper resource disposal
 Commit: 2025-11-08 17:00:48 - Add form fields for movie input
+Commit: 2025-11-08 17:20:55 - Add Bootstrap styling to buttons
