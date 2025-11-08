@@ -246,3 +246,4 @@ Commit: 2025-11-08 16:40:41 - Add proper resource disposal
 Commit: 2025-11-08 17:00:48 - Add form fields for movie input
 Commit: 2025-11-08 17:20:55 - Add Bootstrap styling to buttons
 Commit: 2025-11-08 17:40:02 - Add proper form reset on save
+Commit: 2025-11-08 18:00:09 - Fix postback handling
