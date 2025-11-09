@@ -256,3 +256,4 @@ Commit: 2025-11-09 10:00:21 - Add proper error messages
 Commit: 2025-11-09 10:20:28 - Update database schema references
 Commit: 2025-11-09 10:40:35 - Add confirmation dialog for delete
 Commit: 2025-11-09 11:00:42 - Fix connection closing logic
+Commit: 2025-11-09 11:20:49 - Update UI layout improvements
