@@ -284,3 +284,4 @@ Commit: 2025-11-10 10:40:35 - Add validation for empty fields
 Commit: 2025-11-10 11:00:42 - Add rating field validation
 Commit: 2025-11-10 11:20:49 - Update UI layout improvements
 Commit: 2025-11-10 11:40:56 - Implement proper exception handling
+Commit: 2025-11-10 12:00:03 - Add form fields for movie input
