@@ -289,3 +289,4 @@ Commit: 2025-11-10 12:20:10 - Add proper SQL injection protection
 Commit: 2025-11-10 12:40:17 - Fix description field mapping
 Commit: 2025-11-10 13:00:24 - Update GridView styling
 Commit: 2025-11-10 13:20:31 - Add proper resource disposal
+Commit: 2025-11-10 13:40:38 - Update button visibility logic
