@@ -277,3 +277,4 @@ Commit: 2025-11-09 17:00:48 - Fix description field mapping
 Commit: 2025-11-09 17:20:55 - Update form layout and spacing
 Commit: 2025-11-10 09:00:00 - Update director field handling
 Commit: 2025-11-10 09:20:07 - Fix postback handling
+Commit: 2025-11-10 09:40:14 - Add form validation
