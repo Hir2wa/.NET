@@ -302,3 +302,4 @@ Commit: 2025-11-11 09:40:14 - Add proper session management
 Commit: 2025-11-11 10:00:21 - Add error handling for database operations
 Commit: 2025-11-11 10:20:28 - Fix movieId parameter passing
 Commit: 2025-11-11 10:40:35 - Add proper resource disposal
+Commit: 2025-11-11 11:00:42 - Fix GridView refresh after operations
